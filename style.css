@@ -1,0 +1,277 @@
+.navBar {
+	position: sticky;
+	top: 0px;
+	background-color: white;
+}
+.topbar {
+	display: flex;
+	border-bottom: 1px solid rgb(46, 34, 34);
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 40px;
+}
+.icons-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.icons-left i {
+	font-size: 1.2rem;
+}
+.inputbar {
+	border: 1px solid gray;
+	padding: 15px 30px;
+}
+.inputbar input {
+	border: none;
+}
+
+::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	font-size: 20px;
+}
+.heading-left h1 {
+	font-size: 2.5rem;
+}
+.bottombar ul {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px;
+}
+.bottombar ul li {
+	margin-left: 50px;
+	text-decoration: none;
+	list-style: none;
+	font-size: 1.2rem;
+}
+.bottombar {
+	border-bottom: 1px solid rgb(80, 68, 68);
+}
+.banner {
+	text-align: center;
+	margin-top: 4%;
+	padding: 25px 10px;
+	background-color: orangered;
+	color: white;
+}
+.img-banner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	margin-top: 7%;
+}
+.img-banner-left,
+.img-banner-right {
+	width: 50%;
+}
+.img-banner-left img {
+	width: 100%;
+}
+.img-banner-right img {
+	width: 100%;
+}
+.img-banner-left button,
+.img-banner-right button {
+	padding: 20px 20px;
+}
+
+/***********************************************/
+/* body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+} */
+
+.scroll-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.scroll-container {
+	width: 100%;
+
+	overflow: hidden;
+	border: 2px solid #ddd;
+	margin-top: 10%;
+}
+
+.scroll-content {
+	display: flex;
+	transition: transform 0.3s ease;
+	width: 100%;
+}
+
+.scroll-content img {
+	width: 350px;
+	height: 40%;
+	height: auto;
+	margin-right: 10px;
+
+	display: block;
+}
+
+.scroll-btn {
+	background-color: gray;
+	color: white;
+	border: none;
+	font-size: 30px;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+}
+.left-btn {
+	left: 1%;
+	top: 210%;
+}
+
+.right-btn {
+	right: 1%;
+	top: 210%;
+}
+
+.scroll-btn:hover {
+	background-color: #0056b3;
+}
+.sale-bannner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+	width: 100%;
+	margin-top: 10%;
+	padding: 20px;
+}
+.left-sale-banner,
+.right-sale-banner {
+	width: 50%;
+}
+.left-sale-banner img,
+.right-sale-banner img {
+	width: 100%;
+}
+.left-sale-banner button,
+.right-sale-banner button {
+	padding: 20px 20px;
+	background-color: white;
+}
+
+.homedress {
+	margin: 10% 5%;
+}
+.homedresscontainer {
+	width: 100%;
+	display: flex;
+	gap: 15px;
+	justify-content: center;
+	align-items: center;
+}
+.homedresscontainer img {
+	width: 20%;
+}
+
+.newsalebanner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+	padding: 20px;
+}
+.newsalebanner .left,
+.newsalebanner .right {
+	width: 50%;
+}
+.left img,
+.right img {
+	width: 100%;
+}
+.left button,
+.right button {
+	padding: 20px 15px;
+	background-color: white;
+}
+.bigbanner {
+	width: 100%;
+	height: 50vh;
+}
+.bigbanner img {
+	width: 100%;
+	height: 100%;
+}
+
+.footerbanner {
+	width: 100%;
+	/* border: 1px solid red; */
+	height: 200px;
+	background-image: url("https://images.ctfassets.net/q602vtcuu3w3/7oXpUG11PtVPyaTP7D3Jv9/b8ed2a23ab55c231185a4fc8a0fef147/23_UO_COMMUNITY_REFRESH_NM3.jpg?w=640&q=80&fm=jpg&fl=progressive");
+	background-repeat: repeat-x;
+	background-size: contain;
+}
+.footericon {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 5%;
+	border-bottom: 1px solid rgb(124, 118, 118);
+	padding-bottom: 25px;
+}
+.footericon div {
+	text-align: center;
+	background-color: lightgrey;
+	padding: 20px 50px;
+}
+.discription {
+	padding: 10px 50px;
+}
+.signin {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 50px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 50px;
+}
+.signin .right input {
+	padding: 20px 120px;
+}
+.signin .right button {
+	padding: 20px 20px;
+	background-color: black;
+	color: white;
+}
+.realfooter {
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	padding-top: 80px;
+	background-color: rgb(234, 228, 228);
+	gap: 90px;
+}
+.realfooter div li {
+	list-style: none;
+	margin-top: 15px;
+}
+.realfootericon {
+	display: flex;
+	justify-content: center;
+	padding: 35px 50px;
+	align-items: center;
+	background-color: rgb(234, 228, 228);
+	gap: 25px;
+}
+.realfootericon i {
+	font-size: 1.5em;
+}
